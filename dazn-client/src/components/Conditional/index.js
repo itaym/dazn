@@ -1,3 +1,1 @@
-import Conditional from './Conditional'
-
-export default Conditional
+export { default } from './Conditional'

@@ -1,0 +1,26 @@
+
+.question {
+  padding: 20px;
+}
+.question_txt {
+  margin: 20px;
+}
+.options {
+  margin: 20px;
+}
+.next_question {
+  background: #153215;
+  border: 10px inset rgba(181, 232, 152, 0.63);
+  border-radius: 99px;
+  color: #fff;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 900;
+  margin: 50px auto 20px;
+  max-width: 220px;
+  padding: 20px;
+}
+.hint,
+.correct {
+  margin: 20px;
+}

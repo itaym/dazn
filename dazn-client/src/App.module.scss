@@ -1,0 +1,40 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+}
+
+.header {
+  background: rgba(21, 50, 21, 0.75);
+  color: white;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 55px;
+  text-align: center;
+}
+
+.start_quiz {
+  background: #153215;
+  border: 10px inset rgba(181, 232, 152, 0.63);
+  border-radius: 99px;
+  color: #fff;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 900;
+  margin: 50px auto 20px;
+  max-width: 220px;
+  padding: 20px;
+}
+.background {
+  background-image: url("https://assets.editorial.aetnd.com/uploads/2009/10/ancient-rome-hero.jpg?width=1920&height=960&crop=1920%3A960%2Csmart&quality=75&auto=webp");
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
